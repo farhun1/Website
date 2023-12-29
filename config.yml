@@ -58,22 +58,6 @@ params:
     icon: /logo.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: true # needs to be explicitly set
-    title: Farhun Monsur
-    subtitle: "As-salamu-alaykum \U0001F54A, I'm an Electrical Engineer with a passion for technology. I enjoy learning new things and sharing those can improve me and others. This place is just for that. Let's learn. \U0001F528 \U0001F9ED"
-    imageUrl: "images/whoami/avatar.jpg"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: Farhun
-    buttons:
-      - name: Articles
-        url: articles
-      - name: Projects
-        url: projects
-
-
   # home-info mode
   homeInfoParams:
     Title: "Assalamualaikum \U0001F44B"
@@ -91,7 +75,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/farhun1/blog-site/tree/main/content"
+    URL: "https://github.com/farhun1/Website/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
