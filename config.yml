@@ -101,10 +101,32 @@ taxonomies:
 
 menu:
   main:
+    - identifier: Software
+      name: Software
+      url: /categories/software/
+      weight: 10  
+
+    - identifier: Commands
+      name: Commands
+      url: /categories/commands/
+      weight: 20  
+
+    - identifier: Learnings
+      name: Learnigs
+      url: /categories/learnings/
+      weight: 30  
+
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weight: 40  
+
     - identifier: search
       name: Search
       url: /search/
-      weight: 10  
+      weight: 50  
+
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
