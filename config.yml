@@ -118,7 +118,7 @@ menu:
 
     - identifier: Projects
       name: Projects
-      url: /projects/
+      url: /categories/projects/
       weight: 40  
 
     - identifier: search
