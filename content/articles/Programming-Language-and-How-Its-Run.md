@@ -1,7 +1,7 @@
 ---
 title: "Programming Language and How Its Run"
 date: 2022-12-08
-categories: [Tech]
+categories: [Learnings]
 image: images/thumbnails/Programming-Language-and-How-Its-Run.jpg
 url: /Programming-Language-and-How-Its-Run/
 draft: false

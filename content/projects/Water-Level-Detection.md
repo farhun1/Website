@@ -3,7 +3,7 @@ title: "Water Level Detection"
 date: 2020-09-19
 url: /Water-Level-Detection/
 description:
-categories: [Arduino]
+categories: [Projects]
 draft: false
 ---
 

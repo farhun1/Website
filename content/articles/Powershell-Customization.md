@@ -1,7 +1,7 @@
 ---
 title: "Powershell Customization"
 date: 2022-10-25
-categories: [Tech]
+categories: [Software]
 image: images/thumbnails/powershell-thumb.jpg
 url: /powershell-customization/
 draft: false

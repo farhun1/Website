@@ -3,7 +3,7 @@ title: "Traffic Control System"
 date: 2021-10-07
 url: /Traffic-Control-System/
 description:
-categories: [Arduino]
+categories: [Projects]
 draft: false
 ---
 ## Introduction

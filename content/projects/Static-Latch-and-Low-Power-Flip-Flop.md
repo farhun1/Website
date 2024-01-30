@@ -2,7 +2,7 @@
 title: "Static Latch and Low Power Flip Flop"
 date: 2022-02-15
 description: Explore innovative techniques to reduce power consumption in digital circuits with our in-depth guide on low power flip-flops and static latches.
-categories: [VLSI]
+categories: [Projects]
 url: /Static-Latch-and-Low-Power-Flip-Flop/
 draft: false
 ---

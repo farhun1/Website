@@ -1,7 +1,7 @@
 ---
 title: "Basics of Git: Part One"
 date: 2022-12-21
-categories: [software]
+categories: [Software]
 image: images/thumbnails/Basics-of-git-1.png
 url: /Basics-of-git-1/
 draft: false
