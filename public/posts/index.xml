@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Farhun&#39;s Den</title>
+    <link>http://localhost:60822/posts/</link>
+    <description>Recent content in Posts on Farhun&#39;s Den</description>
+    <image>
+      <title>Farhun&#39;s Den</title>
+      <url>http://localhost:60822/images/avatar.jpg</url>
+      <link>http://localhost:60822/images/avatar.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60822/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wireshark Port Filter vs Protocol Filter</title>
+      <link>http://localhost:60822/Wireshark-Port-Filter-vs-Protocol-Filter/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Wireshark-Port-Filter-vs-Protocol-Filter/</guid>
+      <description>Wireshark Port Filter vs Protocol Filter When analyzing network traffic using Wireshark, it&amp;rsquo;s crucial to understand the difference between the filters to effectively isolate and examine relevant data.
+We will discuss on the basis of port 80 filter and HTTP filter. Because HTTP itself uses the port 80. So, their will be some key difference when using these two filters.
+Port Filter: For this filter specifically targets traffic on ports. On this case port 80, which is the standard port for HTTP communication.</description>
+    </item>
+    <item>
+      <title>AutoCad Function Key Shortcut</title>
+      <link>http://localhost:60822/AutoCad-Function-Key-Shortcut/</link>
+      <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/AutoCad-Function-Key-Shortcut/</guid>
+      <description>AutoCAD function key shortcuts significantly enhance efficiency by allowing users to execute common commands quickly, reducing the need for menu navigation and mouse clicks. Their streamlined access to essential functions helps CAD professionals save time and work more productively on intricate design projects.</description>
+    </item>
+    <item>
+      <title>Fifty Useful Linux Commands Part One</title>
+      <link>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-One/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-One/</guid>
+      <description>Introduction Linux commands are the building blocks for managing and interacting with the Linux operating system. Whether you&amp;rsquo;re a seasoned system administrator or a beginner exploring the world of Linux, understanding these essential commands is crucial. In this article, we&amp;rsquo;ll delve into 50 important Linux commands, complete with practical examples to help you grasp their utility.
+Note: Be cautious when running commands with administrative privileges (e.g., sudo) to avoid making unintended changes to your system.</description>
+    </item>
+    <item>
+      <title>Fifty Useful Linux Commands Part Two</title>
+      <link>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-Two/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-Two/</guid>
+      <description>Introduction After part one we will look into more linux commands to enhance our use of commandline and troubleshoot any problems.
+ln - Create hard or symbolic links to files.
+ln -s /path/to/source/file link_name uptime - Display system uptime and load averages.
+uptime who - Display information about logged-in users.
+who whatis - Display one-line manual page descriptions.
+whatis command_name chroot - Change the root directory for a command.
+chroot /new/root /bin/bash which - Display the path of an executable.</description>
+    </item>
+    <item>
+      <title>How to Run Yacht or Portainer on Ubuntu</title>
+      <link>http://localhost:60822/How-to-Run-Yacht-or-Portainer-on-Ubuntu/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/How-to-Run-Yacht-or-Portainer-on-Ubuntu/</guid>
+      <description>Requirment needed to run Yacht or Portainer (Ubuntu) All we need to run yacht or Portainer to manage our docker container is docker itself. According to docker official documnetation we need to do the following.
+First command
+sudo apt-get updatesudo apt-get install ca-certificates curl gnupg This will allow apt install over HTTPS.
+Second command
+sudo install -m 0755 -d /etc/apt/keyringscurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpgsudo chmod a+r /etc/apt/keyrings/docker.</description>
+    </item>
+    <item>
+      <title>Windows Execution Policy</title>
+      <link>http://localhost:60822/Windows-Execution-Policy/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Windows-Execution-Policy/</guid>
+      <description>Set-ExecutionPolicy Sets the PowerShell execution policies for Windows computers.
+Syntax Set-ExecutionPolicy[-ExecutionPolicy] &amp;lt;ExecutionPolicy&amp;gt;[[-Scope] &amp;lt;ExecutionPolicyScope&amp;gt;][-Force][-WhatIf][-Confirm][&amp;lt;CommonParameters&amp;gt;] Description The Set-ExecutionPolicy cmdlet changes PowerShell execution policies for Windows computers. For more information, see about_Execution_Policies.
+Beginning in PowerShell 6.0 for non-Windows computers, the default execution policy is Unrestricted and can&amp;rsquo;t be changed. The Set-ExecutionPolicy cmdlet is available, but PowerShell displays a console message that it&amp;rsquo;s not supported.
+An execution policy is part of the PowerShell security strategy.</description>
+    </item>
+    <item>
+      <title>Ownership Problem With Git Solved</title>
+      <link>http://localhost:60822/Ownership-Problem-with-Git-Solved/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Ownership-Problem-with-Git-Solved/</guid>
+      <description>When we install windows fresh ownership of folders doesn&amp;rsquo;t change in git. As a result it throws ownership error. Which is something like this:
+&amp;#39;E:/Example&amp;#39; is owned by: &amp;#39;S-1-5-20-18634556-634524560-354234-1550&amp;#39; but the current user is: &amp;#39;S-1-5-20-3264345-30432434-3373425-1033&amp;#39; To add an exception for this directory, call: git config --global --add safe.directory E:/Hugo/Sites/blog-site This message indicates that the directory &amp;lsquo;E:/Hugo/Sites/blog-site&amp;rsquo; is owned by a different user than the current user, and Git is warning you about potential permission issues.</description>
+    </item>
+    <item>
+      <title>Windows Powerful Shortcuts</title>
+      <link>http://localhost:60822/Windows-Powerful-Shortcuts/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Windows-Powerful-Shortcuts/</guid>
+      <description>A computer is only powerful if a person use the computer in a powerful way. One of the powerful to navigate in windows is through shortcuts. Here are some time saving shortcuts that will make your workflow more productive.
+Window Management Win-D: Minimizes all open windows and shows the desktop (Windows key + M: To only minimize) Win-ctrl-D: Add a virtual desktop Win-ctrl-Left/Right Arrow : Move between virtual desktop Win-ctrl-F4 : To close virtual desktop Win-Tab: Opens Task View, which shows all open windows and virtual desktops Alt + Tab: Switches between open windows Alt-Esc: Cycle between open windows quickly Selection CTRL + A to Select all CTRL + Click to select multiple individual items Shift + Click to select multiple items Shift + Arrow to select text Shift + CTRL + Arrow to select entire words Browser Navigation Alt + left or Alt + right arrow to navigate forward or back CTRL + T to open a new tab CTRL + Shift + T to bring up closed tab in browser CTRL + Tab to move to next tab CTRL + Shift + Tab to move to previous tab F5 or CTRL + R to refresh a web page Ctrl+L: To grab link Ctrl+Shift+L: To open last tab Others Windows + or Windows - : To zoom in or out Win-E: Opens File Explorer Win-L: Locks your computer Win-R: Opens the Run dialog box Win-S: Opens the Search bar Ctrl + Shift + Esc: Opens Task Manager Windows key + X: Opens the Quick Link menu </description>
+    </item>
+    <item>
+      <title>Introduction to Deep Learning</title>
+      <link>http://localhost:60822/Introduction-to-Deep-Learning/</link>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Introduction-to-Deep-Learning/</guid>
+      <description>This demonstrate how the pieces of algorith makes neural network</description>
+    </item>
+    <item>
+      <title>Basics of Git: Part Two</title>
+      <link>http://localhost:60822/Basics-of-git-2/</link>
+      <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Basics-of-git-2/</guid>
+      <description>In the last article we learned about git stage, commit, stash, reset and remove now we will move to some other commands to give this series a proper ending for basic idea and to get starting.
+Going back a commit This is essentially destroying history. So be cautious of this one.
+If we want a to go back to one commit behind or we want to delete a commit - git reset --hard HEAD~1 To revert to a specfic commit - git reset commit_id - git revert commit_id Then if we want to push that to remote (origin) - git push -f origin main checking a previous commit If we want to go back and just check a commit then - git checkout commit_id We cannot work while in this checkout mode After checking that commit and want to comeback to present - git checkout master Rebase Merge and rebase works in same way but with slight variation.</description>
+    </item>
+    <item>
+      <title>Basics of Git: Part One</title>
+      <link>http://localhost:60822/Basics-of-git-1/</link>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Basics-of-git-1/</guid>
+      <description>Git in a nutshell What is git? Ans: Git is a program that constantly scans the file for changes and records them in order to create a version of those changes. That is why it is known as a version control system or version control tool. Flow of github Ans: There are different github with different flags to do many task. But here we mainly focusing on the basic git commands.</description>
+    </item>
+    <item>
+      <title>The Importance of Understanding the Definition </title>
+      <link>http://localhost:60822/definition/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/definition/</guid>
+      <description>When it comes to learning, the definition is the first thing we are taught about a subject matter. It is the fundamental component of understanding any concept or matter. But do we really know what the definition of definition is? The term &amp;ldquo;definition&amp;rdquo; is thought to be innate, but we must dissect it to understand its impact on our lives.
+Defining “Definition” To define &amp;ldquo;definition,&amp;rdquo; keep in mind that it must be defined without the use of the word itself we are trying to define.</description>
+    </item>
+    <item>
+      <title>Programming Language and How Its Run</title>
+      <link>http://localhost:60822/Programming-Language-and-How-Its-Run/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Programming-Language-and-How-Its-Run/</guid>
+      <description>Introduction What is the purpose of using a computer? If we ask this simple question, we will realize that we use it to do tasks. But those tasks are done using computers because of their ease of use. For example, we do our assignments or document our work using various programs like Microsoft Office, OnlyOffice, LibreOffice, Google Docs, etc. Well, those are programs or applications we use. Those programs or applications are made using programming languages.</description>
+    </item>
+    <item>
+      <title>Powershell Customization</title>
+      <link>http://localhost:60822/powershell-customization/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/powershell-customization/</guid>
+      <description>Powershell What exactly is PowerShell? Powershell is a task automation solution as well as a command line shell. Similar programs include bash, zsh, and others. PowerShell, on the other hand, is now cross-platform. It is now available for download on Windows, Mac, and Linux. This increases its versatility. But one thing people are afraid of is the command line. Powershell can only be run from the command line. So why not make it more appealing to use?</description>
+    </item>
+    <item>
+      <title>Static Latch and Low Power Flip Flop</title>
+      <link>http://localhost:60822/Static-Latch-and-Low-Power-Flip-Flop/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Static-Latch-and-Low-Power-Flip-Flop/</guid>
+      <description>Explore innovative techniques to reduce power consumption in digital circuits with our in-depth guide on low power flip-flops and static latches.</description>
+    </item>
+    <item>
+      <title>Traffic Control System</title>
+      <link>http://localhost:60822/Traffic-Control-System/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Traffic-Control-System/</guid>
+      <description>Introduction Nowadays, the use of private vehicles is very common, so the number of vehicles on the road is increasing exponentially. Roads without supervision or guidance can lead to traffic jams and accidents. Traffic lights are signaling devices used to control the flow of traffic. The traffic lights will provide directions to users (drivers and pedestrians) through lights displaying standard colors. The three colors used for traffic lights are (red, yellow and green).</description>
+    </item>
+    <item>
+      <title>Water Level Detection</title>
+      <link>http://localhost:60822/Water-Level-Detection/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Water-Level-Detection/</guid>
+      <description>Introduction The Water Level Indicator employs a simple mechanism to detect and indicate the water level in an overhead tank or any other water container. The sensing is done by using water sensor . There are a lot of water sensor models available in the market like water sensor(china) model SEN-00235, Grove- water sensor model SEN-00042, water flow sensor model SEN-00043 etc. For this project we’ll use the water sensor (china) model SEN-00235 because it’s cheap &amp;amp; economical.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Commands on Farhun&#39;s Den</title>
+    <link>http://localhost:60822/categories/commands/</link>
+    <description>Recent content in Commands on Farhun&#39;s Den</description>
+    <image>
+      <title>Farhun&#39;s Den</title>
+      <url>http://localhost:60822/images/avatar.jpg</url>
+      <link>http://localhost:60822/images/avatar.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60822/categories/commands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fifty Useful Linux Commands Part One</title>
+      <link>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-One/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-One/</guid>
+      <description>Introduction Linux commands are the building blocks for managing and interacting with the Linux operating system. Whether you&amp;rsquo;re a seasoned system administrator or a beginner exploring the world of Linux, understanding these essential commands is crucial. In this article, we&amp;rsquo;ll delve into 50 important Linux commands, complete with practical examples to help you grasp their utility.
+Note: Be cautious when running commands with administrative privileges (e.g., sudo) to avoid making unintended changes to your system.</description>
+    </item>
+    <item>
+      <title>Fifty Useful Linux Commands Part Two</title>
+      <link>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-Two/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Fifty-Useful-Linux-Commands-Part-Two/</guid>
+      <description>Introduction After part one we will look into more linux commands to enhance our use of commandline and troubleshoot any problems.
+ln - Create hard or symbolic links to files.
+ln -s /path/to/source/file link_name uptime - Display system uptime and load averages.
+uptime who - Display information about logged-in users.
+who whatis - Display one-line manual page descriptions.
+whatis command_name chroot - Change the root directory for a command.
+chroot /new/root /bin/bash which - Display the path of an executable.</description>
+    </item>
+    <item>
+      <title>Windows Execution Policy</title>
+      <link>http://localhost:60822/Windows-Execution-Policy/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Windows-Execution-Policy/</guid>
+      <description>Set-ExecutionPolicy Sets the PowerShell execution policies for Windows computers.
+Syntax Set-ExecutionPolicy[-ExecutionPolicy] &amp;lt;ExecutionPolicy&amp;gt;[[-Scope] &amp;lt;ExecutionPolicyScope&amp;gt;][-Force][-WhatIf][-Confirm][&amp;lt;CommonParameters&amp;gt;] Description The Set-ExecutionPolicy cmdlet changes PowerShell execution policies for Windows computers. For more information, see about_Execution_Policies.
+Beginning in PowerShell 6.0 for non-Windows computers, the default execution policy is Unrestricted and can&amp;rsquo;t be changed. The Set-ExecutionPolicy cmdlet is available, but PowerShell displays a console message that it&amp;rsquo;s not supported.
+An execution policy is part of the PowerShell security strategy.</description>
+    </item>
+    <item>
+      <title>Ownership Problem With Git Solved</title>
+      <link>http://localhost:60822/Ownership-Problem-with-Git-Solved/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Ownership-Problem-with-Git-Solved/</guid>
+      <description>When we install windows fresh ownership of folders doesn&amp;rsquo;t change in git. As a result it throws ownership error. Which is something like this:
+&amp;#39;E:/Example&amp;#39; is owned by: &amp;#39;S-1-5-20-18634556-634524560-354234-1550&amp;#39; but the current user is: &amp;#39;S-1-5-20-3264345-30432434-3373425-1033&amp;#39; To add an exception for this directory, call: git config --global --add safe.directory E:/Hugo/Sites/blog-site This message indicates that the directory &amp;lsquo;E:/Hugo/Sites/blog-site&amp;rsquo; is owned by a different user than the current user, and Git is warning you about potential permission issues.</description>
+    </item>
+    <item>
+      <title>Windows Powerful Shortcuts</title>
+      <link>http://localhost:60822/Windows-Powerful-Shortcuts/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Windows-Powerful-Shortcuts/</guid>
+      <description>A computer is only powerful if a person use the computer in a powerful way. One of the powerful to navigate in windows is through shortcuts. Here are some time saving shortcuts that will make your workflow more productive.
+Window Management Win-D: Minimizes all open windows and shows the desktop (Windows key + M: To only minimize) Win-ctrl-D: Add a virtual desktop Win-ctrl-Left/Right Arrow : Move between virtual desktop Win-ctrl-F4 : To close virtual desktop Win-Tab: Opens Task View, which shows all open windows and virtual desktops Alt + Tab: Switches between open windows Alt-Esc: Cycle between open windows quickly Selection CTRL + A to Select all CTRL + Click to select multiple individual items Shift + Click to select multiple items Shift + Arrow to select text Shift + CTRL + Arrow to select entire words Browser Navigation Alt + left or Alt + right arrow to navigate forward or back CTRL + T to open a new tab CTRL + Shift + T to bring up closed tab in browser CTRL + Tab to move to next tab CTRL + Shift + Tab to move to previous tab F5 or CTRL + R to refresh a web page Ctrl+L: To grab link Ctrl+Shift+L: To open last tab Others Windows + or Windows - : To zoom in or out Win-E: Opens File Explorer Win-L: Locks your computer Win-R: Opens the Run dialog box Win-S: Opens the Search bar Ctrl + Shift + Esc: Opens Task Manager Windows key + X: Opens the Quick Link menu </description>
+    </item>
+  </channel>
+</rss>

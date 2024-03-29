@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Farhun&#39;s Den</title>
+    <link>http://localhost:60822/categories/projects/</link>
+    <description>Recent content in Projects on Farhun&#39;s Den</description>
+    <image>
+      <title>Farhun&#39;s Den</title>
+      <url>http://localhost:60822/images/avatar.jpg</url>
+      <link>http://localhost:60822/images/avatar.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60822/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Static Latch and Low Power Flip Flop</title>
+      <link>http://localhost:60822/Static-Latch-and-Low-Power-Flip-Flop/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Static-Latch-and-Low-Power-Flip-Flop/</guid>
+      <description>Explore innovative techniques to reduce power consumption in digital circuits with our in-depth guide on low power flip-flops and static latches.</description>
+    </item>
+    <item>
+      <title>Traffic Control System</title>
+      <link>http://localhost:60822/Traffic-Control-System/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Traffic-Control-System/</guid>
+      <description>Introduction Nowadays, the use of private vehicles is very common, so the number of vehicles on the road is increasing exponentially. Roads without supervision or guidance can lead to traffic jams and accidents. Traffic lights are signaling devices used to control the flow of traffic. The traffic lights will provide directions to users (drivers and pedestrians) through lights displaying standard colors. The three colors used for traffic lights are (red, yellow and green).</description>
+    </item>
+    <item>
+      <title>Water Level Detection</title>
+      <link>http://localhost:60822/Water-Level-Detection/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60822/Water-Level-Detection/</guid>
+      <description>Introduction The Water Level Indicator employs a simple mechanism to detect and indicate the water level in an overhead tank or any other water container. The sensing is done by using water sensor . There are a lot of water sensor models available in the market like water sensor(china) model SEN-00235, Grove- water sensor model SEN-00042, water flow sensor model SEN-00043 etc. For this project we’ll use the water sensor (china) model SEN-00235 because it’s cheap &amp;amp; economical.</description>
+    </item>
+  </channel>
+</rss>
