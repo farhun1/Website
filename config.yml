@@ -104,30 +104,35 @@ taxonomies:
 
 menu:
   main:
+    - identifier: Core Network
+      name: Core Network
+      url: /categories/Core-Network/
+      weight: 10  
+
     - identifier: Software
       name: Software
       url: /categories/software/
-      weight: 10  
+      weight: 20  
 
     - identifier: Commands
       name: Commands
       url: /categories/commands/
-      weight: 20  
+      weight: 30  
 
     - identifier: Learnings
       name: Learnigs
       url: /categories/learnings/
-      weight: 30  
+      weight: 40  
 
     - identifier: Projects
       name: Projects
       url: /categories/projects/
-      weight: 40  
+      weight: 50  
 
     - identifier: search
       name: Search
       url: /search/
-      weight: 50  
+      weight: 60  
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
