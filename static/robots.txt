@@ -1,0 +1,41 @@
+# ==========================================
+# ROBOTS.TXT FOR PRIVACY & ANTI-SCRAPING
+# ==========================================
+
+# 1. BLOCK ALL AI SCRAPERS & AGGRESSIVE BOTS
+# These bots are known for high-volume data harvesting for LLM training.
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: AnthropicAI
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: Omgili
+User-agent: Omgilibot
+User-agent: FacebookBot
+User-agent: Diffbot
+User-agent: PerplexityBot
+User-agent: YouBot
+User-agent: Amazonbot
+Disallow: /
+
+# 2. BLOCK GENERAL SEARCH ENGINES (Privacy Focus)
+# Use this if you do NOT want your site appearing in Google, Bing, etc.
+User-agent: *
+Disallow: /
+
+# 3. BLOCK ARCHIVERS
+# Prevents snapshots of your site from being stored permanently.
+User-agent: ia_archiver
+Disallow: /
+
+# 4. SPECIFIC SENSITIVE PATHS
+# Redundancy for security-sensitive folders
+Disallow: /app/
+Disallow: /secure/
+Disallow: /admin/
+Disallow: /api/
+
+# 5. CRAWL-DELAY (For bots that ignore Disallow but honor speed limits)
+Crawl-delay: 30

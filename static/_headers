@@ -1,16 +1,23 @@
-/secure/page
+/*
+  # Global Security Headers
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  
+  # The "Nuclear Option" for Bots: Tells all search engines not to index or follow links
+  X-Robots-Tag: noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex
+
+  # Restrictive Permissions Policy (Blocks browser features bots/malware might exploit)
+  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), usb=(), screen-wake-lock=()
 
 /static/*
+  # Allow assets to be loaded but ensure they aren't indexed separately
   Access-Control-Allow-Origin: *
-  X-Robots-Tag: nosnippet
+  X-Robots-Tag: noindex, nofollow
 
+/secure/*
 /app/*
+  # Extra enforcement for sensitive paths
   X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
-  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), geolocation=(), microphone=(), payment=()
-  Content-Security-Policy: default-src 'self'; script-src 'self'; frame-ancestors 'none';
+  Cache-Control: no-cache, no-store, must-revalidate
