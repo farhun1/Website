@@ -1,6 +1,6 @@
 ---
 title: "Comparing SS7 to TCP/IP"
-date: 2026-03-29
+date: 2026-03-28
 categories: [Core-Network]
 url: /Comparing-SS7-to-TCPIP/
 description: This will help to understand how SS7 can be mapped to TCP/IP for better understanding.
